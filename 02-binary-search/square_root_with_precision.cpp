@@ -4,7 +4,7 @@ using namespace std;
 int squareRoot(int num){
     int start = 0;
     int end = num;
-    long long int ans = 0;
+    long long int ans = -1;
 
     while(start <= end){
         long long int mid = start + (end - start) / 2;
