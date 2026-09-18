@@ -86,6 +86,8 @@ dsa-cpp/
 ├── .gitignore
 │
 ├── 01-arrays/
-├── 02-bit-manipulation/
-├── 03-patterns/
-└── 04-math-and-integer/
+├── 02-binary-search/
+├── 03-sorting/
+├── 04-bit-manipulation/
+├── 05-math-and-integer/
+└── 04-patterns/
