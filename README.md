@@ -90,4 +90,5 @@ dsa-cpp/
 ├── 03-sorting/
 ├── 04-bit-manipulation/
 ├── 05-math-and-integer/
-└── 04-patterns/
+├── 06-patterns/
+└── 07-stl-containers/
