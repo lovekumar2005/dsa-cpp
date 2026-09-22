@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 
-    // list<int> d(5, 0); // Create a deque of size 5 with all elements initialized to 0
-    // list<int> d(5, 3); // Create a deque of size 5 with all elements initialized to 3
-    list<int> l = {10, 20, 30}; // Create a deque with initial values
+    // list<int> d(5, 0); // Create a list of size 5 with all elements initialized to 0
+    // list<int> d(5, 3); // Create a list of size 5 with all elements initialized to 3
+    list<int> l = {10, 20, 30}; // Create a list with initial values
 
     l.push_back(10);
     l.push_back(20);
