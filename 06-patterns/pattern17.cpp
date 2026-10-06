@@ -16,7 +16,6 @@ int main()
   cin >> n;
 
     //METHOD-01
-
     for(int i = 1; i <= n; i++){
         for(int j = 0; j < n-i+1; j++){
             cout << "* ";
@@ -25,7 +24,6 @@ int main()
     }
 
     //METHOD-02
-
     // for(int i = 0; i < n; i++){
     //   for(int j = n - i; j >= 1; j--){
     //       cout << "*";
@@ -34,7 +32,6 @@ int main()
     // }
    
     //WITH WHILE LOOP
-    
     // int i = 0;
     // while(i < n){
     //     int j = n - i;
