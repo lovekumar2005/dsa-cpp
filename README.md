@@ -60,7 +60,7 @@ concepts, including:
 - [x] Bit Manipulation Basics
 - [x] Basic Math & Integer Problems
 - [x] Pattern Problems
-- [x] Sorting
+- [ ] Sorting
 - [ ] Strings
 - [ ] Two Pointers
 - [ ] Sliding Window
