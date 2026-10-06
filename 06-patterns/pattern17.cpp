@@ -15,23 +15,36 @@ int main()
   cout << "Enter row number: ";
   cin >> n;
 
-//   for(int i = 0; i < n; i++){
-//     for(int j = n - i; j >= 1; j--){
-//         cout << "*";
-//     }
-//     cout << endl;
-//   }
-   
-    int i = 0;
-    while(i < n){
-        int j = n - i;
-        while(j >= 1){
-            cout << "*";
-            j--;
+    //METHOD-01
+
+    for(int i = 1; i <= n; i++){
+        for(int j = 0; j < n-i+1; j++){
+            cout << "* ";
         }
         cout << endl;
-        i++;
     }
+
+    //METHOD-02
+
+    // for(int i = 0; i < n; i++){
+    //   for(int j = n - i; j >= 1; j--){
+    //       cout << "*";
+    //   }
+    //   cout << endl;
+    // }
+   
+    //WITH WHILE LOOP
+    
+    // int i = 0;
+    // while(i < n){
+    //     int j = n - i;
+    //     while(j >= 1){
+    //         cout << "*";
+    //         j--;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
     
     return 0;
 }
