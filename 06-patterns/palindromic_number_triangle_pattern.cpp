@@ -18,9 +18,11 @@ int main()
         for(int s = n - i; s >= 1; s--){
             cout << "  ";
         }
+
         for(int j = 1; j <= i; j++){
             cout << j << " ";
         }
+        
         for(int k = i - 1; k >= 1; k--){
             cout << k << " ";
 
