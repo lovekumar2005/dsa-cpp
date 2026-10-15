@@ -35,5 +35,12 @@ int main(){
         cout << x << endl;
     }
 
+    vector<int> v = {1, 2, 3, 4, 5};
+    v.insert(v.begin() + 1, 10); //insert 10 at index 1
+    v.insert(v.begin() + 2, 2, 20); //insert 20 two times at index 2
+    for(int x: v){
+        cout << x << endl;
+    }
+
     return 0;
 }
