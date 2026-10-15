@@ -29,5 +29,11 @@ int main(){
         cout << x << endl;
     }
 
+    vector<int> vv = {1, 2, 3, 4, 5};
+    vv.erase(vv.begin() + 1, vv.begin() + 3); //erase elements from index 1 to 2 (3 is not included)
+    for(int x: vv){
+        cout << x << endl;
+    }
+
     return 0;
 }
