@@ -42,5 +42,13 @@ int main(){
         cout << x << endl;
     }
 
+    //Copying elements from one vector to another using insert() method
+    vector<int> vv1 = {1, 2, 3, 4, 5};
+    vector<int> vv2 = {6, 7, 8};
+    vv1.insert(vv1.begin(), vv2.begin(), vv2.end()); //insert vv2 at the beginning of vv1
+    for(int x: vv1){
+        cout << x << endl;
+    }
+
     return 0;
 }
