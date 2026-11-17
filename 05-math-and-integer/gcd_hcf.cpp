@@ -1,5 +1,4 @@
 // Program: Find GCD (Greatest Common Divisor) / HCF
-
 // Approach: Brute Force
 #include<iostream>
 using namespace std;
@@ -20,3 +19,4 @@ int main(){
 
     return 0;
 }
+
