@@ -12,10 +12,10 @@ int findOccurrence(int arr[], int target, int start, int end, int answer, bool s
         answer = mid;
 
         if (searchFirst) {
-            end = mid - 1;
+            end = mid - 1; //For first occurrence, search in the left half
         }
         else {
-            start = mid + 1;
+            start = mid + 1; //For last occurrence, search in the right half
         }
     }
     else if (arr[mid] < target) {
