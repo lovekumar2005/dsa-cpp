@@ -92,4 +92,5 @@ dsa-cpp/
 ├── 05-math-and-integer/
 ├── 06-patterns/
 ├── 07-stl-containers/
-└── 08-recursion/
+├── 08-recursion/
+└── 09-hasing/
