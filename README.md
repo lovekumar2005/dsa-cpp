@@ -67,7 +67,7 @@ concepts, including:
 - [ ] Recursion & Backtracking
 - [ ] Linked Lists
 - [ ] Stacks & Queues
-- [ ] Hashing
+- [x] Hashing
 - [ ] Trees
 - [ ] Binary Search Trees
 - [ ] Heaps
